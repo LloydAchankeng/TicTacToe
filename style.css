@@ -1,0 +1,80 @@
+.Box1 {
+  width: 150px;
+  height: 150px;
+  background-color: brown;
+  position: absolute;
+  top: 88px;
+  left: 85px;
+}
+
+.Box2 {
+  width: 150px;
+  height: 150px;
+  background-color: brown;
+  position: absolute;
+  top: 283px;
+  left: 85px;
+}
+
+.Box3 {
+  width: 150px;
+  height: 150px;
+  background-color: brown;
+  position: absolute;
+  top: 479px;
+  left: 85px;
+}
+
+.Box4 {
+  width: 150px;
+  height: 150px;
+  background-color: brown;
+  position: absolute;
+  top: 88px;
+  left: 284px;
+}
+
+.Box5 {
+  width: 150px;
+  height: 150px;
+  background-color: brown;
+  position: absolute;
+  top: 283px;
+  left: 284px;
+}
+
+.Box6 {
+  width: 150px;
+  height: 150px;
+  background-color: brown;
+  position: absolute;
+  top: 479px;
+  left: 284px;
+}
+
+.Box7 {
+  width: 150px;
+  height: 150px;
+  background-color: brown;
+  position: absolute;
+  top: 88px;
+  left: 480px;
+}
+
+.Box8 {
+  width: 150px;
+  height: 150px;
+  background-color: brown;
+  position: absolute;
+  top: 283px;
+  left: 480px;
+}
+
+.Box9 {
+  width: 150px;
+  height: 150px;
+  background-color: brown;
+  position: absolute;
+  top: 479px;
+  left: 480px;
+}
