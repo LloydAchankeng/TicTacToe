@@ -7,47 +7,168 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div onclick="TopLeft()" class="Box1"></div>
-    <div onclick="MidLeft()" class="Box2"></div>
-    <div onclick="BottomLeft()" class="Box3"></div>
-    <div onclick="TopMid()" class="Box4"></div>
-    <div onclick="MidiMid()" class="Box5"></div>
-    <div onclick="BottomMid()" class="Box6"></div>
-    <div onclick="TopRight()" class="Box7"></div>
-    <div onclick="MidRight()" class="Box8"></div>
-    <div onclick="BottomRight()" class="Box9"></div>
+    <div onclick="XON++; TopLeft() " class="Box1"></div>
+    <div onclick="XON++; MidLeft()" class="Box2"></div>
+    <div onclick="XON++; BottomLeft()" class="Box3"></div>
+    <div onclick="XON++; TopMid()" class="Box4"></div>
+    <div onclick="XON++; MidiMid()" class="Box5"></div>
+    <div onclick="XON++; BottomMid()" class="Box6"></div>
+    <div onclick="XON++; TopRight()" class="Box7"></div>
+    <div onclick="XON++; MidRight()" class="Box8"></div>
+    <div onclick="XON++; BottomRight()" class="Box9"></div>
     <img src="/Pictures/Board.png" alt="Game Board" width="700" height="700" />
 
     <!-- <script src="/main.js"></script> -->
   </body>
 
   <script>
+    // The X and O Logic
+    var XON = 0;
+    var XOs = "";
+
+    // Check which Area it is in
     function TopLeft() {
+      if (XON > 9) {
+        XON = 0;
+      }
+      if (XON === 1 || XON === 3 || XON === 5 || XON === 7 || XON === 9) {
+        XOs = "X";
+      }
+      if (XON == 0 || XON == 2 || XON === 4 || XON === 6 || XON === 8) {
+        XOs = "O";
+      }
+
       console.log("TopLeft");
+      console.log(XON);
+      console.log(XOs);
     }
+
     function MidLeft() {
+      if (XON > 9) {
+        XON = 0;
+      }
+      if (XON === 1 || XON === 3 || XON === 5 || XON === 7 || XON === 9) {
+        XOs = "X";
+      }
+      if (XON == 0 || XON == 2 || XON === 4 || XON === 6 || XON === 8) {
+        XOs = "O";
+      }
+
       console.log("MidLeft");
+      console.log(XON);
+      console.log(XOs);
     }
+
     function BottomLeft() {
+      if (XON > 9) {
+        XON = 0;
+      }
+      if (XON === 1 || XON === 3 || XON === 5 || XON === 7 || XON === 9) {
+        XOs = "X";
+      }
+      if (XON == 0 || XON == 2 || XON === 4 || XON === 6 || XON === 8) {
+        XOs = "O";
+      }
+
       console.log("BottomLeft");
+      console.log(XON);
+      console.log(XOs);
     }
+
     function TopMid() {
+      if (XON > 9) {
+        XON = 0;
+      }
+      if (XON === 1 || XON === 3 || XON === 5 || XON === 7 || XON === 9) {
+        XOs = "X";
+      }
+      if (XON == 0 || XON == 2 || XON === 4 || XON === 6 || XON === 8) {
+        XOs = "O";
+      }
+
       console.log("TopMid");
+      console.log(XON);
+      console.log(XOs);
     }
+
     function MidiMid() {
+      if (XON > 9) {
+        XON = 0;
+      }
+      if (XON === 1 || XON === 3 || XON === 5 || XON === 7 || XON === 9) {
+        XOs = "X";
+      }
+      if (XON == 0 || XON == 2 || XON === 4 || XON === 6 || XON === 8) {
+        XOs = "O";
+      }
+
       console.log("MidiMid");
+      console.log(XON);
+      console.log(XOs);
     }
+
     function BottomMid() {
+      if (XON > 9) {
+        XON = 0;
+      }
+      if (XON === 1 || XON === 3 || XON === 5 || XON === 7 || XON === 9) {
+        XOs = "X";
+      }
+      if (XON == 0 || XON == 2 || XON === 4 || XON === 6 || XON === 8) {
+        XOs = "O";
+      }
+
       console.log("BottomMid");
+      console.log(XON);
+      console.log(XOs);
     }
+
     function TopRight() {
+      if (XON > 9) {
+        XON = 0;
+      }
+      if (XON === 1 || XON === 3 || XON === 5 || XON === 7 || XON === 9) {
+        XOs = "X";
+      }
+      if (XON == 0 || XON == 2 || XON === 4 || XON === 6 || XON === 8) {
+        XOs = "O";
+      }
+
       console.log("TopRight");
+      console.log(XON);
+      console.log(XOs);
     }
+
     function MidRight() {
+      if (XON > 9) {
+        XON = 0;
+      }
+      if (XON === 1 || XON === 3 || XON === 5 || XON === 7 || XON === 9) {
+        XOs = "X";
+      }
+      if (XON == 0 || XON == 2 || XON === 4 || XON === 6 || XON === 8) {
+        XOs = "O";
+      }
+
       console.log("MidRight");
+      console.log(XON);
+      console.log(XOs);
     }
+
     function BottomRight() {
+      if (XON > 9) {
+        XON = 0;
+      }
+      if (XON === 1 || XON === 3 || XON === 5 || XON === 7 || XON === 9) {
+        XOs = "X";
+      }
+      if (XON == 0 || XON == 2 || XON === 4 || XON === 6 || XON === 8) {
+        XOs = "O";
+      }
+
       console.log("BottomRight");
+      console.log(XON);
+      console.log(XOs);
     }
   </script>
 </html>
