@@ -133,3 +133,58 @@
   top: 493px;
   left: 494px;
 }
+
+/* The O Positions */
+.TheO1 {
+  position: absolute;
+  top: 103px;
+  left: 103px;
+}
+
+.TheO2 {
+  position: absolute;
+  top: 300px;
+  left: 103px;
+}
+
+.TheO3 {
+  position: absolute;
+  top: 493px;
+  left: 103px;
+}
+
+.TheO4 {
+  position: absolute;
+  top: 103px;
+  left: 299px;
+}
+
+.TheO5 {
+  position: absolute;
+  top: 300px;
+  left: 299px;
+}
+
+.TheO6 {
+  position: absolute;
+  top: 493px;
+  left: 299px;
+}
+
+.TheO7 {
+  position: absolute;
+  top: 103px;
+  left: 494px;
+}
+
+.TheO8 {
+  position: absolute;
+  top: 300px;
+  left: 494px;
+}
+
+.TheO9 {
+  position: absolute;
+  top: 493px;
+  left: 494px;
+}
