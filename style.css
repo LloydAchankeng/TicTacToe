@@ -78,3 +78,58 @@
   top: 479px;
   left: 480px;
 }
+
+/* The X Positions */
+.TheX1 {
+  position: absolute;
+  top: 103px;
+  left: 103px;
+}
+
+.TheX2 {
+  position: absolute;
+  top: 300px;
+  left: 103px;
+}
+
+.TheX3 {
+  position: absolute;
+  top: 493px;
+  left: 103px;
+}
+
+.TheX4 {
+  position: absolute;
+  top: 103px;
+  left: 299px;
+}
+
+.TheX5 {
+  position: absolute;
+  top: 300px;
+  left: 299px;
+}
+
+.TheX6 {
+  position: absolute;
+  top: 493px;
+  left: 299px;
+}
+
+.TheX7 {
+  position: absolute;
+  top: 103px;
+  left: 494px;
+}
+
+.TheX8 {
+  position: absolute;
+  top: 300px;
+  left: 494px;
+}
+
+.TheX9 {
+  position: absolute;
+  top: 493px;
+  left: 494px;
+}

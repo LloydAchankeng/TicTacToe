@@ -1,5 +1,6 @@
 - Draw the layout of the board
 - Add clickable squares on each board section
 - if click on one square make it switch between X and O
+- make a image appear when it is either X or O
 - if there is a winner then you win
 - if there is no winner than a tie
