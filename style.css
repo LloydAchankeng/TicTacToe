@@ -1,190 +1,22 @@
-.Box1 {
-  width: 150px;
-  height: 150px;
-  background-color: brown;
-  position: absolute;
-  top: 88px;
-  left: 85px;
+.box {
+  border-color: black;
+  border-style: solid;
+  border-width: 4px;
+  height: 100px;
+  width: 100px;
+
+  font-size: 100px;
+  text-align: center;
+
+  float: left;
 }
 
-.Box2 {
-  width: 150px;
-  height: 150px;
-  background-color: brown;
-  position: absolute;
-  top: 283px;
-  left: 85px;
+idk {
+  display: inline;
+
+  vertical-align: middle;
 }
 
-.Box3 {
-  width: 150px;
-  height: 150px;
-  background-color: brown;
-  position: absolute;
-  top: 479px;
-  left: 85px;
-}
-
-.Box4 {
-  width: 150px;
-  height: 150px;
-  background-color: brown;
-  position: absolute;
-  top: 88px;
-  left: 284px;
-}
-
-.Box5 {
-  width: 150px;
-  height: 150px;
-  background-color: brown;
-  position: absolute;
-  top: 283px;
-  left: 284px;
-}
-
-.Box6 {
-  width: 150px;
-  height: 150px;
-  background-color: brown;
-  position: absolute;
-  top: 479px;
-  left: 284px;
-}
-
-.Box7 {
-  width: 150px;
-  height: 150px;
-  background-color: brown;
-  position: absolute;
-  top: 88px;
-  left: 480px;
-}
-
-.Box8 {
-  width: 150px;
-  height: 150px;
-  background-color: brown;
-  position: absolute;
-  top: 283px;
-  left: 480px;
-}
-
-.Box9 {
-  width: 150px;
-  height: 150px;
-  background-color: brown;
-  position: absolute;
-  top: 479px;
-  left: 480px;
-}
-
-/* The X Positions */
-.TheX1 {
-  position: absolute;
-  top: 103px;
-  left: 103px;
-}
-
-.TheX2 {
-  position: absolute;
-  top: 300px;
-  left: 103px;
-}
-
-.TheX3 {
-  position: absolute;
-  top: 493px;
-  left: 103px;
-}
-
-.TheX4 {
-  position: absolute;
-  top: 103px;
-  left: 299px;
-}
-
-.TheX5 {
-  position: absolute;
-  top: 300px;
-  left: 299px;
-}
-
-.TheX6 {
-  position: absolute;
-  top: 493px;
-  left: 299px;
-}
-
-.TheX7 {
-  position: absolute;
-  top: 103px;
-  left: 494px;
-}
-
-.TheX8 {
-  position: absolute;
-  top: 300px;
-  left: 494px;
-}
-
-.TheX9 {
-  position: absolute;
-  top: 493px;
-  left: 494px;
-}
-
-/* The O Positions */
-.TheO1 {
-  position: absolute;
-  top: 103px;
-  left: 103px;
-}
-
-.TheO2 {
-  position: absolute;
-  top: 300px;
-  left: 103px;
-}
-
-.TheO3 {
-  position: absolute;
-  top: 493px;
-  left: 103px;
-}
-
-.TheO4 {
-  position: absolute;
-  top: 103px;
-  left: 299px;
-}
-
-.TheO5 {
-  position: absolute;
-  top: 300px;
-  left: 299px;
-}
-
-.TheO6 {
-  position: absolute;
-  top: 493px;
-  left: 299px;
-}
-
-.TheO7 {
-  position: absolute;
-  top: 103px;
-  left: 494px;
-}
-
-.TheO8 {
-  position: absolute;
-  top: 300px;
-  left: 494px;
-}
-
-.TheO9 {
-  position: absolute;
-  top: 493px;
-  left: 494px;
+.clear {
+  clear: both;
 }
