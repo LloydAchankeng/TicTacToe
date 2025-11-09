@@ -20,3 +20,7 @@ idk {
 .clear {
   clear: both;
 }
+
+.unclickable-div {
+  pointer-events: none;
+}
